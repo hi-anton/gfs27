@@ -1,10 +1,10 @@
 # robots.txt – tells crawlers which parts of the site they may visit.
 # Spec: https://www.rfc-editor.org/rfc/rfc9309
-# Note: robots.txt is a request, not access control. Never rely on it to hide private content.
+# Note: robots.txt is not access control. Never rely on it to hide private content.
 
 # Allow all crawlers to access the whole site.
 User-agent: *
-Allow: /
+Disallow: /
 
 # Keep crawlers out of a folder, e.g.:
 # Disallow: /drafts/
