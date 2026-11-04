@@ -1,0 +1,23 @@
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+section {
+  background-color: transparent;
+}
+
+h1, h2 {
+  font-family: var(--font-family-heading);
+  color: var(--accent);
+}
+
+.reveal .controls,
+.reveal .slide-number a {
+  color: var(--gray-2);
+}
+
+.reveal .slide-number a {
+  text-decoration: none;
+  font-weight: var(--font-bold);
+}

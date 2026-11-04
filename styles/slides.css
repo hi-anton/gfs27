@@ -1,0 +1,13 @@
+/* Title page */
+.title-page {
+  height: 100%;
+  align-content: center;
+  justify-items: center;
+}
+
+.subtitle {
+  font-family: var(--font-family-mono);
+  font-size: var(--text-base);
+  color: var(--gray-4);
+  margin: 0;
+}

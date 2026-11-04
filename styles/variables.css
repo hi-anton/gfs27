@@ -1,0 +1,92 @@
+:root {
+  /* colors */
+  --white: hsl(0, 0%, 100%);
+  
+  --gray-1: hsl(0, 0%, 95%);
+  --gray-2: hsl(0, 0%, 85%);
+  --gray-3: hsl(0, 0%, 70%);
+  --gray-4: hsl(0, 0%, 50%);
+  --gray-5: hsl(0, 0%, 35%);
+  --gray-6: hsl(0, 0%, 20%);
+
+  --black: hsl(0, 0%, 10%);
+
+  --accent: hsl(350, 50%, 50%);
+  --accent-hover: hsl(350, 50%, 40%);
+
+  /* status colors */
+  --success: hsl(140, 60%, 40%);
+  --warning: hsl(40, 95%, 50%);
+  --error: hsl(0, 75%, 50%);
+
+  /* color roles (for darkmode) */
+  --color-bg: var(--gray-1);
+  --color-surface: var(--white);
+  --color-text: var(--black);
+  --color-text-muted: var(--gray-5);
+  --color-border: var(--gray-2);
+  --color-link: var(--accent);
+
+  /* font */
+  --font-family: 'Geist', Arial, sans-serif;
+  --font-family-heading: "Space Grotesk", sans-serif;
+  --font-family-mono: "JetBrains Mono", monospace;
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-heading: 900;
+
+  --text-ratio: 1.45;
+  --text-base: 1.172rem;
+  --text-small: calc(var(--text-base) / var(--text-ratio));
+  --text-2xl: 5.183rem;
+  --text-3xl: calc(var(--text-2xl) * var(--text-ratio));
+
+  /* large and xl split base -> 2xl into three even steps */
+  --text-step: 1.641;
+  --text-large: calc(var(--text-base) * var(--text-step));
+  --text-xl: calc(var(--text-large) * var(--text-step));
+
+  --line-height: 1.6;
+  --line-height-heading: 1.15;
+
+  /* spacing */
+  --spacing1: 0.125rem;
+  --spacing2: 0.25rem;
+  --spacing3: 0.5rem;
+  --spacing4: 1rem;
+  --spacing5: 2rem;
+  --spacing6: 4rem;
+  --spacing7: 8rem;
+
+  /* z-index */
+  --z-dropdown: 100;
+  --z-header: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* borders */
+  --border-thickness: 0.1rem;
+  --border: var(--border-thickness) solid var(--color-border);
+
+  --radius-small: 0.25rem;
+  --radius: 1rem;
+  --radius-full: 9999px;
+
+  /* animation */
+  --duration-fast: 135ms;
+  --duration: 400ms;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --fade-in: fade-in var(--duration) var(--ease);
+  --slide-in-left: slide-in-left var(--duration) var(--ease);
+  --slide-in-right: slide-in-right var(--duration) var(--ease);
+  --slide-in-top: slide-in-top var(--duration) var(--ease);
+  --slide-in-bottom: slide-in-bottom var(--duration) var(--ease);
+
+  /* shadows */
+  --shadow-small: 0 1px 2px hsl(0 0% 0% / 0.08);
+  --shadow: 0 4px 12px hsl(0 0% 0% / 0.1);
+  --shadow-large: 0 12px 32px hsl(0 0% 0% / 0.15);
+}
